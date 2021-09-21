@@ -2,19 +2,46 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Rubik Beastly';
+}
+
+.brand-1,
+.brand-2,
+.brand-3 {
+    height: 100vh;
+    position: relative;
 }
 
 .brand-1 {
     background-color: red;
-    height: 100vh;
 }
 
 .brand-2 {
     background-color: green;
-    height: 100vh;
 }
 
 .brand-3 {
     background-color: yellow;
-    height: 100vh;
+}
+
+.img {
+    height: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.brand-description {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    font-size: 8vh;
+    text-align: center;
+    color: yellow;
+}
+
+#inverse-color {
+    color: green;
 }
