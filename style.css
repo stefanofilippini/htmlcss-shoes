@@ -3,3 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.brand-1 {
+    background-color: red;
+    height: 100vh;
+}
+
+.brand-2 {
+    background-color: green;
+    height: 100vh;
+}
+
+.brand-3 {
+    background-color: yellow;
+    height: 100vh;
+}
