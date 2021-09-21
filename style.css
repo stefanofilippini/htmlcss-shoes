@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Rubik Beastly';
+    font-family: 'Rubik Mono One', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -10,8 +10,8 @@
 
 ul {
     position: fixed;
-    right: 5%;
-    top: 5%;
+    right: 3%;
+    top: 3%;
     z-index: 1;
 }
 
@@ -20,7 +20,7 @@ ul > li {
     background-color: white;
     list-style: none;
     padding: 15px;
-    margin: 40px;
+    margin: 25px;
     border-radius: 50%;
     line-height: 30px;
     font-size: 30px;
@@ -66,9 +66,9 @@ ul > li > a {
 .brand-description {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 85%;
+    top: 80%;
     left: 50%;
-    font-size: 8vh;
+    font-size: 7vh;
     text-align: center;
     color: yellow;
 }
